@@ -9,3 +9,14 @@ summary(model)
 
 tukey.test <- TukeyHSD(model)
 tukey.test
+
+Latihan 2
+
+df_nama=PlantGrowth
+View(df_nama)
+
+model <- aov(weight~group, data = df_reza)
+summary(model)
+
+tukey.test <- TukeyHSD(model)
+tukey.test
